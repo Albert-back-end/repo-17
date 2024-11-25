@@ -37,6 +37,7 @@
 .header__theme-button_is-active {
     font-weight: 700;
     position: relative;
+    background-color: transparent;
 }
 
 .header__theme-button_is-active::after {
@@ -55,6 +56,7 @@
     border: none;
     font-size: 18px;
     color: currentColor;
+    background-color: transparent;
 }
 
 .header__menu {

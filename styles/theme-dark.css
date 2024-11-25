@@ -6,8 +6,6 @@
 
 .theme_dark > .header__theme-button_is-active {
     border-width: none;
-    border: 1px solid var(--text-color);
-    background-color: var(--bg-color);
 }
 
 .theme_dark .header__theme-button_is-active::after {
