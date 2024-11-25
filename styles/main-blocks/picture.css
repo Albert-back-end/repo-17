@@ -1,0 +1,21 @@
+.content__figure {
+    margin: 7% 0;
+    position: relative;
+    width: calc(100% + 14vi);
+    left: -7vi;
+}
+
+.content__picture {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.content__picture-caption {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #312A4E;
+    font-size: 18px;
+    line-height: normal;
+}

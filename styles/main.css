@@ -1,0 +1,58 @@
+.content-section {
+    padding: 0 5vi;
+}
+
+.content__paragraph {
+    font-family: Raleway;
+    font-size: 400;
+    font-size: 18px;
+}
+
+.content__paragraph:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+.link__app {
+    color: currentColor;
+}
+
+.content__blockquote {
+    font-style: italic;
+    line-height: 200%;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.content__list {
+    list-style: none;
+    padding: 0;
+    padding-inline-start: 40px;
+}
+
+.content__list-item {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.content__list-item:before {
+    position: absolute;
+    background-image: url(../images/marker-light.svg);
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    content: " ";
+    display: flex;
+    left: -30px;
+}
+
+.content__text-block_type_first-lettered>.content__paragraph:nth-child(1)::first-letter {
+    background-color: var(--accent-color);
+    padding: 0 4px;
+    margin-right: 1px;
+    font-family: Raleway;
+    font-size: 30px;
+}
+

@@ -1,0 +1,31 @@
+.theme_dark {
+    --bg-color: #171717;
+    --text-color: #B3B3B3;
+    --accent-color: transparent;
+}
+
+.theme_dark > .header__theme-button_is-active {
+    border-width: none;
+    border: 1px solid var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.theme_dark .header__theme-button_is-active::after {
+    background-image: url('../images/pattern.svg');
+    position: absolute;
+    left: 2.5px;
+    top: 13px;
+}
+
+.theme_dark .content__text-block_type_first-lettered > .content__paragraph:nth-child(1)::first-letter {
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+}
+
+.theme_dark .colored-text::before {
+    background-image: url('../images/pattern.svg');
+}
+
+.theme_dark .content__list-item::before {
+    background-image: url('../images/marker-dark.svg');
+}
