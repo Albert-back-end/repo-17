@@ -28,6 +28,7 @@
 
 .header__theme-toggler {
     list-style: none;
+    padding: 0;
 }
 
 .header__theme-toggler:hover {
@@ -48,7 +49,8 @@
     z-index: -1;
     width: 4em;
     height: 0.3em;
-    left: 0.6vw;
+    left: 0.5vw;
+    top: 12px;
 }
 
 .header__theme-button {

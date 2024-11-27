@@ -32,3 +32,9 @@
 .colored-text {
     position: relative;
 }
+
+@media (max-width: 462px) {
+    .colored-text {
+        white-space: nowrap;
+    }
+}
